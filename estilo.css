@@ -1,0 +1,119 @@
+h1 {
+  font-size: 40px;
+}
+
+.contenedor__datos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor__datos input {
+  padding: 10px;
+  width: 250px;
+  font-size: 20px;
+  align-self: center;
+  margin: 10px;
+}
+
+.contenedor__datos button {
+  width: 300px;
+  padding: 5px;
+  align-self: center;
+  background-color: #00db1d;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contenedor__datos button:hover {
+  cursor: pointer;
+  background-color: #00db1daf;
+}
+
+.contenedor__datos label,
+button {
+  font-size: 20px;
+}
+
+.contenedor__palabra {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor__palabra #palabra {
+  background-color: #0000004d;
+  width: 700px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contenedor__horca {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor__horca > div {
+  position: absolute;
+}
+
+#horca {
+  visibility: visible;
+}
+
+#cabeza {
+  visibility: hidden;
+}
+
+#tronco {
+  visibility: hidden;
+}
+
+#brz-drch {
+  visibility: hidden;
+}
+
+#brazos {
+  visibility: hidden;
+}
+
+#prn-izq {
+  visibility: hidden;
+}
+
+#piernas {
+  visibility: hidden;
+}
+
+.contenedor__letras {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor__letras > div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #00db1d;
+  margin: 5px;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+#perdedor {
+  visibility: hidden;
+  color: #fa0000;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  font-size: 100px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="./funciones.js"></script>
+    <title>Ahorcado</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="contenedor__datos">
+        <h1>AHORCADO</h1>
+        <label for="plb_inicio"
+          >Introduce una palabra sin que los otros participantes la vean:</label
+        >
+        <input type="text" id="plb_inicio" />
+        <button id="comenzar" onclick="comenzar()">Comenzar</button>
+      </div>
+      <div class="contenedor__palabra">
+        <input type="text" id="palabra" readonly />
+      </div>
+      <div class="contenedor__horca">
+        <div id="horca"><img src="./img/Ahorcado-0.png" alt="no-img" /></div>
+        <div id="cabeza"><img src="./img/Ahorcado-1.png" alt="no-img" /></div>
+        <div id="tronco"><img src="./img/Ahorcado-2.png" alt="no-img" /></div>
+        <div id="brz-drch"><img src="./img/Ahorcado-3.png" alt="no-img" /></div>
+        <div id="brazos"><img src="./img/Ahorcado-4.png" alt="no-img" /></div>
+        <div id="prn-izq"><img src="./img/Ahorcado-5.png" alt="no-img" /></div>
+        <div id="piernas"><img src="./img/Ahorcado-6.png" alt="no-img" /></div>
+      </div>
+      <div class="contenedor__letras"></div>
+      <div id="perdedor">¡HAS PERDIDO!</div>
+    </div>
+  </body>
+</html>
