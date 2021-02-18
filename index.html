@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo.css" />
-    <script src="./funciones.js"></script>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./funcionsjq.js"></script>
     <title>Ahorcado</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
           >Introduce una palabra sin que los otros participantes la vean:</label
         >
         <input type="text" id="plb_inicio" />
-        <button id="comenzar" onclick="comenzar()">Comenzar</button>
+        <button id="comenzar">Comenzar</button>
       </div>
       <div class="contenedor__palabra">
         <input type="text" id="palabra" readonly />
