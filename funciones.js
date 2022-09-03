@@ -11,7 +11,7 @@ function comenzar() {
   //Quitamos y ponemos palabra, evitamos dejar al descubierto la palabra secreta
   document.getElementById("palabra").value = "";
 
-  //La palabra la convertimos en array
+  //La palabra la convertimos en array con la funcion split
   array_palabra = palabra.split("");
 
   //Creamos otro array con guiones según la longitud de la palabra
